@@ -18,16 +18,18 @@
     <version>25</version>
   </parent>
 
-  <groupId>io.takari.maven.plugins</groupId>
+  <groupId>kie.io.takari.maven.plugins</groupId>
   <artifactId>takari-lifecycle</artifactId>
   <version>1.13.4-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <prerequisites>
-    <maven>[3.2.1,)</maven>
+    <maven>[3.3.9,)</maven>
   </prerequisites>
 
   <properties>
+    <source>1.8</source>
+    <target>1.8</target>
     <mavenVersion>3.3.1</mavenVersion>
     <sisuVersion>0.3.0</sisuVersion>
     <sisuGuiceVersion>3.2.5</sisuGuiceVersion>
@@ -81,6 +83,10 @@
         <plugin>
           <groupId>io.takari.maven.plugins</groupId>
           <artifactId>takari-lifecycle-plugin</artifactId>
+          <configuration>
+            <source>1.8</source>
+            <target>1.8</target>
+          </configuration>
           <dependencies>
             <dependency>
               <groupId>io.takari.m2e.workspace</groupId>

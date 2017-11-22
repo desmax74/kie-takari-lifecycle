@@ -59,6 +59,8 @@ public abstract class AbstractCompiler {
 
   private AccessRulesViolation privatePackageReference;
 
+  private Boolean failOnError;
+
   protected AbstractCompiler(CompilerBuildContext context) {
     this.context = context;
   }
@@ -102,6 +104,10 @@ public abstract class AbstractCompiler {
   protected Proc getProc() {
     return proc;
   }
+
+  protected Boolean getFailOnError(){ return failOnError; }
+
+  protected void setFailOnError(Boolean failOnError){ this.failOnError = failOnError; }
 
   public void setGeneratedSourcesDirectory(File generatedSourcesDirectory) {
     this.generatedSourcesDirectory = generatedSourcesDirectory;

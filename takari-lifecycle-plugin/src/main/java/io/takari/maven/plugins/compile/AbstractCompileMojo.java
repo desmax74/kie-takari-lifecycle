@@ -92,6 +92,13 @@ public abstract class AbstractCompileMojo extends AbstractMojo {
   }
 
   /**
+   * Indicates whether the build will continue even if there are compilation errors.
+   *
+   */
+  @Parameter( property = "maven.compiler.failOnError", defaultValue = "true" )
+  private boolean failOnError = true;
+
+  /**
    * The -encoding argument for the Java compiler.
    */
   @Parameter(property = "encoding", defaultValue = "${project.build.sourceEncoding}")
@@ -386,6 +393,7 @@ public abstract class AbstractCompileMojo extends AbstractMojo {
         mkdirs(getGeneratedSourcesDirectory());
       }
 
+      compiler.setFailOnError(failOnError);
       compiler.setOutputDirectory(getOutputDirectory());
       compiler.setSource(source);
       compiler.setTarget(getTarget(target, source));

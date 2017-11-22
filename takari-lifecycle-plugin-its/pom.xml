@@ -18,7 +18,8 @@
     <version>1.13.4-SNAPSHOT</version>
   </parent>
 
-  <artifactId>takari-lifecycle-plugin-its</artifactId>
+  <groupId>kie.io.takari.maven.plugins</groupId>
+  <artifactId>kie-takari-lifecycle-plugin-its</artifactId>
   <packaging>takari-maven-component</packaging>
 
   <properties>
@@ -27,7 +28,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.takari.maven.plugins</groupId>
+      <groupId>kie.io.takari.maven.plugins</groupId>
       <artifactId>takari-lifecycle-plugin</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>

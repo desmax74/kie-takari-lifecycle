@@ -16,7 +16,8 @@
     <artifactId>takari-lifecycle</artifactId>
     <version>1.13.4-SNAPSHOT</version>
   </parent>
-  <artifactId>takari-lifecycle-plugin</artifactId>
+  <groupId>kie.io.takari.maven.plugins</groupId>
+  <artifactId>kie-takari-lifecycle-plugin</artifactId>
   <packaging>takari-maven-plugin</packaging>
 
   <!-- not inherited, IIRC -->

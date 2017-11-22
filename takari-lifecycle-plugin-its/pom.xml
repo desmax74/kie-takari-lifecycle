@@ -21,6 +21,7 @@
   <groupId>kie.io.takari.maven.plugins</groupId>
   <artifactId>kie-takari-lifecycle-plugin-its</artifactId>
   <packaging>takari-maven-component</packaging>
+  <version>1.13.4</version>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -29,8 +30,8 @@
   <dependencies>
     <dependency>
       <groupId>kie.io.takari.maven.plugins</groupId>
-      <artifactId>takari-lifecycle-plugin</artifactId>
-      <version>${project.version}</version>
+      <artifactId>kie-takari-lifecycle-plugin</artifactId>
+      <version>1.13.4</version>
       <scope>test</scope>
     </dependency>
     <dependency>

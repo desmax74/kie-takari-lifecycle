@@ -19,6 +19,7 @@
   <groupId>kie.io.takari.maven.plugins</groupId>
   <artifactId>kie-takari-lifecycle-plugin</artifactId>
   <packaging>takari-maven-plugin</packaging>
+  <version>1.13.4</version>
 
   <!-- not inherited, IIRC -->
   <prerequisites>

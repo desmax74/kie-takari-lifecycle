@@ -21,8 +21,8 @@
   <!--<artifactId>takari-lifecycle-plugin-its</artifactId>
   <packaging>takari-maven-component</packaging>-->
 
-  <groupId>kie.io.takari.maven.plugins</groupId><!-- ++ -->
-  <artifactId>kie-takari-lifecycle-plugin-its</artifactId><!-- ++ -->
+  <groupId>io.takari.maven.plugins</groupId><!-- ++ -->
+  <artifactId>takari-lifecycle-plugin-its</artifactId><!-- ++ -->
   <packaging>takari-maven-component</packaging>
   <version>1.13.4</version><!-- ++ -->
 

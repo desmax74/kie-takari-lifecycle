@@ -18,8 +18,8 @@
     <version>25</version>
   </parent>
 
-  <groupId>io.takari.maven.plugins</groupId>
-  <artifactId>takari-lifecycle</artifactId>
+  <groupId>kie.io.takari.maven.plugins</groupId>
+  <artifactId>kie-takari-lifecycle</artifactId>
   <!--<version>1.13.3</version>-->
   <version>1.13.4</version>
   <packaging>pom</packaging>

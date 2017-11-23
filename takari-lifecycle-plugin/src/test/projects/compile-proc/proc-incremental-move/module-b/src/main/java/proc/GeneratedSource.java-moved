@@ -1,5 +1,0 @@
-package proc;
-
-public class GeneratedSource {
-  public static final String VALUE = "value";
-}

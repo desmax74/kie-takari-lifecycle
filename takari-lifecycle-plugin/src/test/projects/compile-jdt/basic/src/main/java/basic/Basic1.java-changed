@@ -1,6 +1,0 @@
-package basic;
-
-public class Basic1
-{
-    public static final String ID = "id";
-}

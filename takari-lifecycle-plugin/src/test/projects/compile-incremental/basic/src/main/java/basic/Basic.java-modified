@@ -1,7 +1,0 @@
-package basic;
-
-public class Basic {
-  public String getName() {
-    return "name";
-  }
-}

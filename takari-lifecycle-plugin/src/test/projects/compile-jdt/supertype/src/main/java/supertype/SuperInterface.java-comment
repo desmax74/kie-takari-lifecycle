@@ -1,7 +1,0 @@
-package supertype;
-
-// comment
-public interface SuperInterface
-{
-
-}

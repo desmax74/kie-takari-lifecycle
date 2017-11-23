@@ -1,4 +1,0 @@
-resource.txt with ${name}
-property with dots ${dotted.name}
-property with dashes ${dashed-name}
-reflective property ${project.artifactId}

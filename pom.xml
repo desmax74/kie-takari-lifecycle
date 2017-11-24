@@ -20,17 +20,15 @@
 
   <groupId>kie.io.takari.maven.plugins</groupId>
   <artifactId>kie-takari-lifecycle</artifactId>
-  <!--<version>1.13.3</version>-->
-  <version>1.13.4</version>
+  <version>1.13.3</version>
   <packaging>pom</packaging>
 
   <prerequisites>
-    <!--<maven>[3.2.1,)</maven>-->
     <maven>[3.3.9,)</maven>
   </prerequisites>
 
   <properties>
-    <mavenVersion>3.3.1</mavenVersion>
+    <mavenVersion>3.3.9</mavenVersion>
     <sisuVersion>0.3.0</sisuVersion>
     <sisuGuiceVersion>3.2.5</sisuGuiceVersion>
     <aetherVersion>1.0.2.v20150114</aetherVersion>
@@ -43,12 +41,12 @@
     <takari.javaSourceVersion>1.8</takari.javaSourceVersion>
   </properties>
 
-  <scm>
+  <!--<scm>
     <connection>scm:git:git@github.com/takari/takari-lifecycle-plugin.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/takari/takari-lifecycle-plugin.git</developerConnection>
     <url>http://github.com/takari/takari-lifecycle-plugin</url>
     <tag>takari-lifecycle-1.13.3</tag>
-  </scm>
+  </scm>-->
 
   <!--
   <repositories>

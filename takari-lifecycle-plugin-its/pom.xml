@@ -13,18 +13,18 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.takari.maven.plugins</groupId>
-    <artifactId>takari-lifecycle</artifactId>
-    <version>1.13.3</version>
+    <groupId>kie.io.takari.maven.plugins</groupId>
+    <artifactId>kie-takari-lifecycle</artifactId>
+    <version>1.13.4</version>
   </parent>
 
   <!--<artifactId>takari-lifecycle-plugin-its</artifactId>
   <packaging>takari-maven-component</packaging>-->
 
-  <groupId>io.takari.maven.plugins</groupId><!-- ++ -->
-  <artifactId>takari-lifecycle-plugin-its</artifactId><!-- ++ -->
+  <groupId>kie.io.takari.maven.plugins</groupId><!-- ++ -->
+  <artifactId>kie-takari-lifecycle-plugin-its</artifactId><!-- ++ -->
   <packaging>takari-maven-component</packaging>
-  <version>1.13.4</version><!-- ++ -->
+  <version>1.13.4</version>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -34,8 +34,7 @@
     <dependency>
       <groupId>kie.io.takari.maven.plugins</groupId>
       <artifactId>kie-takari-lifecycle-plugin</artifactId>
-      <!--<version>${project.version}</version>-->
-      <version>1.13.4</version>
+      <version>1.13.3</version>
       <scope>test</scope>
     </dependency>
     <dependency>

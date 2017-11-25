@@ -79,8 +79,8 @@
     <pluginManagement>
       <plugins>
         <plugin>
-          <groupId>io.takari.maven.plugins</groupId>
-          <artifactId>takari-lifecycle-plugin</artifactId>
+          <groupId>kie.io.takari.maven.plugins</groupId>
+          <artifactId>kie-takari-lifecycle-plugin</artifactId>
           <dependencies>
             <dependency>
               <groupId>io.takari.m2e.workspace</groupId>
